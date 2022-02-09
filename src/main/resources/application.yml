@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:192.168.1.181}:3306/test?serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: test
+    password: test

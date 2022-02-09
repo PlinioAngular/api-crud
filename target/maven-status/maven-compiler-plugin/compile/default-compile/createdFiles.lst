@@ -1,0 +1,9 @@
+com\crud\CrudApplication.class
+com\crud\ServletInitializer.class
+com\crud\service\impl\CiudadServiceImpl.class
+com\crud\SwaggerConfig.class
+com\crud\service\ICiudadService.class
+com\crud\dao\ICiudadDAO.class
+com\crud\model\Ciudad.class
+com\crud\web\CiudadController.class
+com\crud\service\ICRUD.class
